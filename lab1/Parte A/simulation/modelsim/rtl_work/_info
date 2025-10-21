@@ -1,0 +1,59 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte A\simulation\modelsim
+Esumador_completo
+Z1 w1761007898
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte A\simulation\modelsim
+Z5 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/sumador_completo.vhd
+Z6 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/sumador_completo.vhd
+l0
+L4
+V3aSSDBQg<bGPM[>H5OfSB3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1761014201.283000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/sumador_completo.vhd|
+Z10 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/sumador_completo.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 cM=6Z?8;mNPTgOETnYQA61
+!i10b 1
+Acomp_sumador
+R2
+R3
+DEx4 work 16 sumador_completo 0 22 3aSSDBQg<bGPM[>H5OfSB3
+l10
+L8
+V7A:nBAM>SHe1PGmlTZY8<2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 [7i`e79>O6igYEd[D:fWo2
+!i10b 1
+Etb_sumador_completo
+w1761013759
+R2
+R3
+R4
+8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd
+FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd
+l0
+L4
+VZ@mf]C@6B2bz5R=a`Gd6e1
+!s100 5[TDK<kk5236BS0^Pf4IU1
+R7
+31
+!i10b 1
+!s108 1761014201.847000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd|
+!s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd|
+R11
+R12

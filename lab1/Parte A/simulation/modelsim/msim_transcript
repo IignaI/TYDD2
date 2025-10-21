@@ -1,0 +1,37 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do sumador_completo_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {sumador_completo.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Block1
+# 
+# Top level modules:
+# 	Block1
+# 
+# vcom -93 -work work {C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_sumador_completo
+# -- Compiling architecture tb_sum of tb_sumador_completo
+# ** Error: (vcom-11) Could not find work.sumador_completo.
+# 
+# ** Error: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd(11): (vcom-1195) Cannot find expanded name "work.sumador_completo".
+# 
+# ** Error: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd(11): Unknown expanded name.
+# ** Error: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd(25): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sumador_completo_run_msim_gate_verilog.do line 10
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd}"
