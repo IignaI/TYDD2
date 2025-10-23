@@ -1,0 +1,43 @@
+|multi_2bit_ss
+A0 => r0.IN0
+A0 => SYNTHESIZED_WIRE_1.IN0
+B0 => r0.IN1
+B0 => SYNTHESIZED_WIRE_0.IN0
+A1 => SYNTHESIZED_WIRE_0.IN1
+A1 => SYNTHESIZED_WIRE_4.IN0
+B1 => SYNTHESIZED_WIRE_1.IN1
+B1 => SYNTHESIZED_WIRE_4.IN1
+r0 <= r0.DB_MAX_OUTPUT_PORT_TYPE
+r1 <= sumador_completo:b2v_inst.S
+r2 <= sumador_completo:b2v_inst8.S
+r3 <= sumador_completo:b2v_inst8.Cout
+
+
+|multi_2bit_ss|sumador_completo:b2v_inst
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|multi_2bit_ss|sumador_completo:b2v_inst8
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
