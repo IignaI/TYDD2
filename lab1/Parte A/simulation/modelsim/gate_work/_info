@@ -3,43 +3,81 @@ K3
 13
 cModel Technology
 Z0 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte A\simulation\modelsim
-vBlock1
-I^6;=B:z1J8edb?NCBkI>33
-VBnW:]`6fP^HikBS`W[zBb2
-Z1 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte A\simulation\modelsim
-w1761016184
-8sumador_completo.vo
-Fsumador_completo.vo
-L0 31
-Z2 OV;L;10.1d;51
-r1
+Esumador_completo
+Z1 w1761245669
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z8 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte A\simulation\modelsim
+Z9 8sumador_completo.vho
+Z10 Fsumador_completo.vho
+l0
+L34
+VAORXY3`SaYLf4:Io`_CfJ2
+Z11 OV;C;10.1d;51
 31
-o-vlog01compat -work work -O0
-n@block1
+Z12 !s108 1761245938.403000
+Z13 !s90 -reportprogress|300|-93|-work|work|sumador_completo.vho|
+Z14 !s107 sumador_completo.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+!s100 2AY40PfEO@VOoVb24jP[>0
 !i10b 1
-!s100 MQPR6kVZSDHmzUJBlS6a<1
-!s85 0
-!s108 1761016250.500000
-!s107 sumador_completo.vo|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|sumador_completo.vo|
-!s101 -O0
-!s92 -vlog01compat -work work +incdir+. -O0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 sumador_completo 0 22 AORXY3`SaYLf4:Io`_CfJ2
+l75
+L52
+VB_7@b5jClFSod9dn?HS`k3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 Y49@OhbAZR[a<g_UE03jn0
+!i10b 1
 Etb_sumador_completo
-w1761015835
-Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-R1
-8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd
-FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd
+Z17 w1761244118
+R5
+R6
+R8
+Z18 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd
+Z19 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd
 l0
 L4
-VZ@mf]C@6B2bz5R=a`Gd6e1
-!s100 5[TDK<kk5236BS0^Pf4IU1
-Z5 OV;C;10.1d;51
+VUcgEV=ULYm2eodbU015IE1
+!s100 9?2Uka1gT2E9MJE4]f5^f0
+R11
 31
 !i10b 1
-!s108 1761016250.808000
-!s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd|
-!s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd|
-o-93 -work work -O0
-Z6 tExplicit 1
+Z20 !s108 1761245938.842000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd|
+Z22 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/tb_sumador_completo.vhd|
+R15
+R16
+Acomportamiento
+R5
+R6
+DEx4 work 19 tb_sumador_completo 0 22 UcgEV=ULYm2eodbU015IE1
+l20
+L7
+VzOEWUPh:hRHH2gOzF:DSJ0
+!s100 l[1O1=[fbQYTE6VbCW;in0
+R11
+31
+!i10b 1
+R20
+R21
+R22
+R15
+R16
