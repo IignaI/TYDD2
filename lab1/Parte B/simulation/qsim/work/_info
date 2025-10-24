@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte B\simulation\qsim
+vmulti_2bit_ss
+Z1 !s100 b>zg=SMRZGnfH[PXEAVEC0
+Z2 IQAohC;?Q8ce>1;>aS3JD@3
+Z3 V87J_jV`PGCB:5Gjo:h_Kg2
+Z4 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte B\simulation\qsim
+Z5 w1761325878
+Z6 8multi_2bit_ss.vo
+Z7 Fmulti_2bit_ss.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|multi_2bit_ss.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1761325879.949000
+Z12 !s107 multi_2bit_ss.vo|
+!s101 -O0
+vmulti_2bit_ss_vlg_check_tst
+!i10b 1
+Z13 !s100 >6=8^D[j:N3^;>RMHJ7]k2
+Z14 ImV^T4DYgncl@]2V@m79>52
+Z15 V2Mf@[81@a;GDgD27fM2De2
+R4
+Z16 w1761325877
+Z17 8multi_2bit_ss.vt
+Z18 Fmulti_2bit_ss.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1761325880.156000
+Z20 !s107 multi_2bit_ss.vt|
+Z21 !s90 -work|work|multi_2bit_ss.vt|
+!s101 -O0
+R10
+vmulti_2bit_ss_vlg_sample_tst
+!i10b 1
+Z22 !s100 nUIaaM?o@=HDONMi:T3B40
+Z23 IBIez8mfKBF=HOVBkOO4kZ3
+Z24 V5K18m0dd;2iZ4H5hQdR452
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vmulti_2bit_ss_vlg_vec_tst
+!i10b 1
+!s100 hL6LL9AN0@MefU2:EAZ@W1
+IFjWdX1ZalFncJN^aNCTjk1
+Z25 Vdd<GUFNj>YDTihMaYH1bL2
+R4
+R16
+R17
+R18
+Z26 L0 239
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

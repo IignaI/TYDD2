@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte B\simulation\modelsim
+Emulti_2bit_ss
+Z1 w1761329731
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z8 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte B\simulation\modelsim
+Z9 8multi_2bit_ss.vho
+Z10 Fmulti_2bit_ss.vho
+l0
+L34
+VYcbHiV@7aQiLmG:VcK>>o1
+Z11 OV;C;10.1d;51
+31
+Z12 !s108 1761329806.589000
+Z13 !s90 -reportprogress|300|-93|-work|work|multi_2bit_ss.vho|
+Z14 !s107 multi_2bit_ss.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+!s100 ]=>U0>gilB;?YWSRaN?R>1
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 13 multi_2bit_ss 0 22 YcbHiV@7aQiLmG:VcK>>o1
+l89
+L58
+V]Y@ZNMn>m31[^=FHC^Hk_0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 :zEi0[[8cfC]JnPGIQ7Cd0
+!i10b 1
+Etb_multi_2bit_ss
+Z17 w1761329555
+R5
+R6
+R8
+Z18 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/tb_multi_2bit_ss.vhd
+Z19 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/tb_multi_2bit_ss.vhd
+l0
+L4
+VzdUC00J`U[l]V`]W9Eh1B0
+!s100 0a=EB5mYTSjOg@1=o_VB81
+R11
+31
+!i10b 1
+Z20 !s108 1761329807.129000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/tb_multi_2bit_ss.vhd|
+Z22 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/tb_multi_2bit_ss.vhd|
+R15
+R16
+Asim
+R5
+R6
+DEx4 work 16 tb_multi_2bit_ss 0 22 zdUC00J`U[l]V`]W9Eh1B0
+l19
+L7
+VX4B;k3E5>5IiS^51D<7XX1
+!s100 J_^O5HYb:9ijC:3cIE1F=3
+R11
+31
+!i10b 1
+R20
+R21
+R22
+R15
+R16

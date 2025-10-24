@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte B\simulation\modelsim
+Emulti_2bit_ss
+Z1 w1761248808
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte B\simulation\modelsim
+Z5 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/multi_2bit_ss.vhd
+Z6 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/multi_2bit_ss.vhd
+l0
+L24
+V4Ej8<zW487GYn2Y<;0Kd41
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1761328442.393000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/multi_2bit_ss.vhd|
+Z10 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/multi_2bit_ss.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 JVI=4k?;aE;4Uoa>EKNF00
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 13 multi_2bit_ss 0 22 4Ej8<zW487GYn2Y<;0Kd41
+l57
+L38
+Vb_=?`HNLHje<Z>`iha@Y42
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 oJ:^?H_z]B986^i7C:W[?0
+!i10b 1
+Esumador_completo
+Z13 w1761241849
+R2
+R3
+R4
+Z14 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/sumador_completo.vhd
+Z15 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/sumador_completo.vhd
+l0
+L4
+V3aSSDBQg<bGPM[>H5OfSB3
+R7
+31
+Z16 !s108 1761328442.003000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/sumador_completo.vhd|
+Z18 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte A/sumador_completo.vhd|
+R11
+R12
+!s100 cM=6Z?8;mNPTgOETnYQA61
+!i10b 1
+Acomp_sumador
+R2
+R3
+DEx4 work 16 sumador_completo 0 22 3aSSDBQg<bGPM[>H5OfSB3
+l10
+L8
+V7A:nBAM>SHe1PGmlTZY8<2
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 [7i`e79>O6igYEd[D:fWo2
+!i10b 1
+Etb_multi_2bit_ss
+Z19 w1761327033
+R2
+R3
+R4
+Z20 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/tb_multi_2bit_ss.vhd
+Z21 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/tb_multi_2bit_ss.vhd
+l0
+L4
+VzdUC00J`U[l]V`]W9Eh1B0
+!s100 0a=EB5mYTSjOg@1=o_VB81
+R7
+31
+!i10b 1
+Z22 !s108 1761328442.714000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/tb_multi_2bit_ss.vhd|
+Z24 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte B/tb_multi_2bit_ss.vhd|
+R11
+R12
+Asim
+R2
+R3
+DEx4 work 16 tb_multi_2bit_ss 0 22 zdUC00J`U[l]V`]W9Eh1B0
+l19
+L7
+Vd;azM69=`V[G1RRPV19X=1
+!s100 21EchR]:BYPfQ<6oD;9A21
+R7
+31
+!i10b 1
+R22
+R23
+R24
+R11
+R12
