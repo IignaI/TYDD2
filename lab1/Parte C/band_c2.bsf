@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 128 144)
-	(text "vand_c2" (rect 5 0 54 14)(font "Arial" (font_size 8)))
+	(text "band_c2" (rect 5 0 54 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)
