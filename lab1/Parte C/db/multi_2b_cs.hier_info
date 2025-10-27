@@ -1,0 +1,76 @@
+|multi_2b_cs
+r0 <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+CK => inst30.CLK
+CK => inst26.CLK
+CK => inst28.CLK
+CK => inst31.CLK
+CK => inst27.CLK
+CK => inst29.CLK
+CK => inst32.CLK
+CK => inst33.CLK
+A0 => inst26.DATAIN
+B0 => inst28.DATAIN
+r1 <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst27.DATAIN
+B1 => inst29.DATAIN
+r2 <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+r3 <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+V1 <= band_c2:inst8.V1
+V2 <= band_c2:inst8.V2
+
+
+|multi_2b_cs|sumador_completo:inst18
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|multi_2b_cs|sumador_completo:inst19
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|multi_2b_cs|sumador_completo:inst20
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|multi_2b_cs|band_c2:inst8
+V2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+r3 => inst4.IN0
+r3 => inst3.IN2
+B1 => inst4.IN1
+B1 => inst6.IN0
+A1 => inst4.IN2
+A1 => inst5.IN0
+V1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cout_2 => inst.IN0
+Cout_3 => inst.IN1
+
+
