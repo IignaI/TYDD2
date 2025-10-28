@@ -1,25 +1,25 @@
 |multi_2b_cs
-r0 <= inst30.DB_MAX_OUTPUT_PORT_TYPE
-CK => inst30.CLK
-CK => inst26.CLK
-CK => inst28.CLK
-CK => inst31.CLK
-CK => inst27.CLK
-CK => inst29.CLK
-CK => inst32.CLK
-CK => inst33.CLK
-A0 => inst26.DATAIN
-B0 => inst28.DATAIN
-r1 <= inst31.DB_MAX_OUTPUT_PORT_TYPE
-A1 => inst27.DATAIN
-B1 => inst29.DATAIN
-r2 <= inst32.DB_MAX_OUTPUT_PORT_TYPE
-r3 <= inst33.DB_MAX_OUTPUT_PORT_TYPE
-V1 <= band_c2:inst8.V1
-V2 <= band_c2:inst8.V2
+A0 => SYNTHESIZED_WIRE_37.DATAIN
+B0 => SYNTHESIZED_WIRE_45.DATAIN
+A1 => SYNTHESIZED_WIRE_38.DATAIN
+B1 => SYNTHESIZED_WIRE_36.DATAIN
+CK => r3~reg0.CLK
+CK => r2~reg0.CLK
+CK => r1~reg0.CLK
+CK => r0~reg0.CLK
+CK => SYNTHESIZED_WIRE_36.CLK
+CK => SYNTHESIZED_WIRE_45.CLK
+CK => SYNTHESIZED_WIRE_38.CLK
+CK => SYNTHESIZED_WIRE_37.CLK
+r0 <= r0~reg0.DB_MAX_OUTPUT_PORT_TYPE
+r1 <= r1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+r2 <= r2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+r3 <= r3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+V1 <= band_c2:b2v_inst8.V1
+V2 <= band_c2:b2v_inst8.V2
 
 
-|multi_2b_cs|sumador_completo:inst18
+|multi_2b_cs|sumador_completo:b2v_inst11
 A => o3.IN0
 A => o4.IN0
 A => S.IN1
@@ -33,7 +33,7 @@ S <= S.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|multi_2b_cs|sumador_completo:inst19
+|multi_2b_cs|sumador_completo:b2v_inst12
 A => o3.IN0
 A => o4.IN0
 A => S.IN1
@@ -47,7 +47,7 @@ S <= S.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|multi_2b_cs|sumador_completo:inst20
+|multi_2b_cs|sumador_completo:b2v_inst13
 A => o3.IN0
 A => o4.IN0
 A => S.IN1
@@ -61,7 +61,7 @@ S <= S.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|multi_2b_cs|band_c2:inst8
+|multi_2b_cs|band_c2:b2v_inst8
 V2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 r3 => inst4.IN0
 r3 => inst3.IN2

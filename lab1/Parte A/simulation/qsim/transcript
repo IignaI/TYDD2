@@ -25,10 +25,10 @@
 # 
 #           File in use by: iniak  Hostname: IL-PIXELATOR-MA  ProcessID: 5188
 # 
-#           Attempting to use alternate WLF file "./wlft8iykd7".
+#           Attempting to use alternate WLF file "./wlftky536n".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlft8iykd7
+#           Using alternate file: ./wlftky536n
 # 
 # Simulation passed !
 # ** Note: $finish    : sumador_completo.vt(179)

@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/20/2025 21:23:34"
+// Generated on "10/28/2025 16:52:28"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    sumador_completo
 // 
@@ -208,9 +208,9 @@ begin
 	A = 1'b0;
 	A = #191744 1'b1;
 	A = #24824 1'b0;
-	A = #40232 1'b1;
-	A = #30816 1'b0;
-	A = #45368 1'b1;
+	A = #35096 1'b1;
+	A = #43656 1'b0;
+	A = #37664 1'b1;
 	A = #31672 1'b0;
 	A = #35952 1'b1;
 	A = #41944 1'b0;
@@ -238,9 +238,9 @@ begin
 	Cin = #22256 1'b0;
 	Cin = #79608 1'b1;
 	Cin = #24824 1'b0;
-	Cin = #95872 1'b1;
-	Cin = #29960 1'b0;
-	Cin = #112992 1'b1;
+	Cin = #89880 1'b1;
+	Cin = #43656 1'b0;
+	Cin = #105288 1'b1;
 	Cin = #41944 1'b0;
 end 
 

@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "10/23/2025 14:40:15"
+// DATE "10/28/2025 16:52:29"
 
 // 
 // Device: Altera EP3C120F780C7 Package FBGA780
@@ -28,16 +28,16 @@
 
 `timescale 1 ps/ 1 ps
 
-module Block1 (
-	S,
+module sumador_completo (
 	A,
 	B,
 	Cin,
+	S,
 	Cout);
-output 	S;
 input 	A;
 input 	B;
 input 	Cin;
+output 	S;
 output 	Cout;
 
 // Design Ports Information
@@ -64,13 +64,13 @@ wire \Cout~output_o ;
 wire \A~input_o ;
 wire \B~input_o ;
 wire \Cin~input_o ;
-wire \inst~0_combout ;
-wire \inst3~0_combout ;
+wire \S~0_combout ;
+wire \Cout~0_combout ;
 
 
 // Location: IOOBUF_X72_Y0_N9
 cycloneiii_io_obuf \S~output (
-	.i(\inst~0_combout ),
+	.i(\S~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
@@ -83,7 +83,7 @@ defparam \S~output .open_drain_output = "false";
 
 // Location: IOOBUF_X83_Y0_N16
 cycloneiii_io_obuf \Cout~output (
-	.i(\inst3~0_combout ),
+	.i(\Cout~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
@@ -125,37 +125,37 @@ defparam \Cin~input .simulate_z_as = "z";
 // synopsys translate_on
 
 // Location: LCCOMB_X81_Y1_N24
-cycloneiii_lcell_comb \inst~0 (
+cycloneiii_lcell_comb \S~0 (
 // Equation(s):
-// \inst~0_combout  = \A~input_o  $ (\B~input_o  $ (\Cin~input_o ))
+// \S~0_combout  = \A~input_o  $ (\B~input_o  $ (\Cin~input_o ))
 
 	.dataa(\A~input_o ),
 	.datab(\B~input_o ),
 	.datac(\Cin~input_o ),
 	.datad(gnd),
 	.cin(gnd),
-	.combout(\inst~0_combout ),
+	.combout(\S~0_combout ),
 	.cout());
 // synopsys translate_off
-defparam \inst~0 .lut_mask = 16'h9696;
-defparam \inst~0 .sum_lutc_input = "datac";
+defparam \S~0 .lut_mask = 16'h9696;
+defparam \S~0 .sum_lutc_input = "datac";
 // synopsys translate_on
 
 // Location: LCCOMB_X81_Y1_N2
-cycloneiii_lcell_comb \inst3~0 (
+cycloneiii_lcell_comb \Cout~0 (
 // Equation(s):
-// \inst3~0_combout  = (\A~input_o  & ((\B~input_o ) # (\Cin~input_o ))) # (!\A~input_o  & (\B~input_o  & \Cin~input_o ))
+// \Cout~0_combout  = (\A~input_o  & ((\B~input_o ) # (\Cin~input_o ))) # (!\A~input_o  & (\B~input_o  & \Cin~input_o ))
 
 	.dataa(\A~input_o ),
 	.datab(\B~input_o ),
 	.datac(\Cin~input_o ),
 	.datad(gnd),
 	.cin(gnd),
-	.combout(\inst3~0_combout ),
+	.combout(\Cout~0_combout ),
 	.cout());
 // synopsys translate_off
-defparam \inst3~0 .lut_mask = 16'hE8E8;
-defparam \inst3~0 .sum_lutc_input = "datac";
+defparam \Cout~0 .lut_mask = 16'hE8E8;
+defparam \Cout~0 .sum_lutc_input = "datac";
 // synopsys translate_on
 
 assign S = \S~output_o ;

@@ -1,0 +1,82 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do multi_2b_cs_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity multi_2b_cs
+# -- Compiling architecture bdf_type of multi_2b_cs
+# ** Warning: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd(144): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_41" found in sensitivity list.
+# 
+# ** Warning: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd(156): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_42" found in sensitivity list.
+# 
+# ** Warning: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd(168): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_43" found in sensitivity list.
+# 
+# ** Warning: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd(180): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_44" found in sensitivity list.
+# 
+# ** Warning: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd(195): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_46" found in sensitivity list.
+# 
+# ** Warning: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd(207): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_47" found in sensitivity list.
+# 
+# ** Warning: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd(219): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_48" found in sensitivity list.
+# 
+# ** Warning: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd(231): (vcom-1445) Duplicate signal "SYNTHESIZED_WIRE_49" found in sensitivity list.
+# 
+# vcom -93 -work work {C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/sumador_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sumador_completo
+# -- Compiling architecture comp_sumador of sumador_completo
+# 
+# vcom -93 -work work {C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/tb_multi_2b_cs.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_multi_2b_cs
+# -- Compiling architecture sim of tb_multi_2b_cs
+# ** Warning: [4] C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/tb_multi_2b_cs.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  tb_multi_2b_cs
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_multi_2b_cs 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_multi_2b_cs(sim)
+# Loading work.multi_2b_cs(bdf_type)
+# Loading work.sumador_completo(comp_sumador)
+# ** Warning: (vsim-3473) Component instance "b2v_inst8 : band_c2" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_multi_2b_cs/uut File: C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_multi_2b_cs/uut/V1, and its initial value is not used.
+# 
+# Therefore, simulation behavior may occur that is not in compliance with
+# 
+# the VHDL standard as the initial values come from the base signal /tb_multi_2b_cs/V1.
+# 
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_multi_2b_cs/uut/V2, and its initial value is not used.
+# 
+# Therefore, simulation behavior may occur that is not in compliance with
+# 
+# the VHDL standard as the initial values come from the base signal /tb_multi_2b_cs/V2.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns

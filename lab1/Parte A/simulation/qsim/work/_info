@@ -8,7 +8,7 @@ Z1 !s100 ^6f<YQj:159^z3_G5I0R^1
 Z2 IS]kg9YCFOVkojPK97nLIo3
 Z3 VPkh?h;U[`OI3C?Lj=38WL3
 Z4 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte A\simulation\qsim
-Z5 w1761006216
+Z5 w1761681149
 Z6 8sumador_completo.vo
 Z7 Fsumador_completo.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|sumador_completo.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1761006217.906000
+Z11 !s108 1761681150.920000
 Z12 !s107 sumador_completo.vo|
 !s101 -O0
 vsumador_completo_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 [7ihk;Gaz:5AB`o1`;zol1
 Z14 Im0Ni:BGj>bfD;2d1i271B1
 Z15 VN_C1]dld>_JX;z?5foZAO0
 R4
-Z16 w1761006214
+Z16 w1761681148
 Z17 8sumador_completo.vt
 Z18 Fsumador_completo.vt
 L0 61
@@ -36,7 +36,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1761006218.244000
+Z19 !s108 1761681151.175000
 Z20 !s107 sumador_completo.vt|
 Z21 !s90 -work|work|sumador_completo.vt|
 !s101 -O0
@@ -62,8 +62,8 @@ R21
 R10
 vsumador_completo_vlg_vec_tst
 !i10b 1
-!s100 RRT5P^U52T<]O==Q?ANLE0
-I`QRFZ_M=US3Pn4L3Xfdmm2
+!s100 k:6IOeTQ=`<kOHG6D0^;B1
+IZ=@82hn@SY5jzlDMeV>IP1
 Z25 VHlOb<KI2PN?8::mKGXccC1
 R4
 R16

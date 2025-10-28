@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte C\simulation\modelsim
+Emulti_2b_cs
+Z1 w1761687561
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte C\simulation\modelsim
+Z5 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd
+Z6 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd
+l0
+L24
+VIO0maOMQefWSjA=Sdeg[e3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1761690976.064000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd|
+Z10 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 IRWfLB4A:`;AAH0e;i>B42
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 11 multi_2b_cs 0 22 IO0maOMQefWSjA=Sdeg[e3
+l93
+L41
+Vk9Mz1FECnF:mDB5d3_4iG1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 PI?4zjN]3[Y7zbHe=@6f73
+!i10b 1
+Esumador_completo
+Z13 w1761241849
+R2
+R3
+R4
+Z14 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/sumador_completo.vhd
+Z15 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/sumador_completo.vhd
+l0
+L4
+V3aSSDBQg<bGPM[>H5OfSB3
+R7
+31
+Z16 !s108 1761690976.412000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/sumador_completo.vhd|
+Z18 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/sumador_completo.vhd|
+R11
+R12
+!s100 cM=6Z?8;mNPTgOETnYQA61
+!i10b 1
+Acomp_sumador
+R2
+R3
+DEx4 work 16 sumador_completo 0 22 3aSSDBQg<bGPM[>H5OfSB3
+l10
+L8
+V7A:nBAM>SHe1PGmlTZY8<2
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 [7i`e79>O6igYEd[D:fWo2
+!i10b 1
+Etb_multi_2b_cs
+Z19 w1761690895
+R2
+R3
+R4
+Z20 8C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/tb_multi_2b_cs.vhd
+Z21 FC:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/tb_multi_2b_cs.vhd
+l0
+L4
+V2P9nz[Y?j_7V6TQlh2F>i1
+!s100 5oE1D>Vc;CNTieLi1Zb_81
+R7
+31
+!i10b 1
+Z22 !s108 1761690976.790000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/tb_multi_2b_cs.vhd|
+Z24 !s107 C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/tb_multi_2b_cs.vhd|
+R11
+R12
+Asim
+R2
+R3
+DEx4 work 14 tb_multi_2b_cs 0 22 2P9nz[Y?j_7V6TQlh2F>i1
+l20
+L7
+VA;71cmP?^c_Tc1U3Dn1e]1
+!s100 F;:655RU:E:7ZB8@B9i:H0
+R7
+31
+!i10b 1
+R22
+R23
+R24
+R11
+R12
