@@ -1,0 +1,124 @@
+|mult_doble
+A0 => multi_2bit_ss:mul_s.A0
+A0 => multi_2b_csed:mul_us.A0
+A1 => multi_2bit_ss:mul_s.A1
+A1 => multi_2b_csed:mul_us.A1
+B0 => multi_2bit_ss:mul_s.B0
+B0 => multi_2b_csed:mul_us.B0
+B1 => multi_2bit_ss:mul_s.B1
+B1 => multi_2b_csed:mul_us.B1
+r0_s <= multi_2bit_ss:mul_s.r0
+r1_s <= multi_2bit_ss:mul_s.r1
+r2_s <= multi_2bit_ss:mul_s.r2
+r3_s <= multi_2bit_ss:mul_s.r3
+r0_us <= multi_2b_csed:mul_us.r0
+r1_us <= multi_2b_csed:mul_us.r1
+r2_us <= multi_2b_csed:mul_us.r2
+r3_us <= multi_2b_csed:mul_us.r3
+
+
+|mult_doble|multi_2bit_ss:mul_s
+A0 => r0.IN0
+A0 => SYNTHESIZED_WIRE_1.IN0
+B0 => r0.IN1
+B0 => SYNTHESIZED_WIRE_0.IN0
+A1 => SYNTHESIZED_WIRE_0.IN1
+A1 => SYNTHESIZED_WIRE_4.IN0
+B1 => SYNTHESIZED_WIRE_1.IN1
+B1 => SYNTHESIZED_WIRE_4.IN1
+r0 <= r0.DB_MAX_OUTPUT_PORT_TYPE
+r1 <= sumador_completo:b2v_inst.S
+r2 <= sumador_completo:b2v_inst8.S
+r3 <= sumador_completo:b2v_inst8.Cout
+
+
+|mult_doble|multi_2bit_ss:mul_s|sumador_completo:b2v_inst
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mult_doble|multi_2bit_ss:mul_s|sumador_completo:b2v_inst8
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mult_doble|multi_2b_csed:mul_us
+A0 => SYNTHESIZED_WIRE_4.IN0
+A0 => SYNTHESIZED_WIRE_12.IN0
+A0 => r0.IN0
+A0 => SYNTHESIZED_WIRE_6.IN0
+B0 => r0.IN1
+B0 => SYNTHESIZED_WIRE_13.IN0
+A1 => SYNTHESIZED_WIRE_4.IN1
+A1 => SYNTHESIZED_WIRE_12.IN1
+A1 => SYNTHESIZED_WIRE_13.IN1
+A1 => SYNTHESIZED_WIRE_2.IN0
+B1 => SYNTHESIZED_WIRE_2.IN1
+B1 => SYNTHESIZED_WIRE_6.IN1
+B1 => SYNTHESIZED_WIRE_9.IN1
+r0 <= r0.DB_MAX_OUTPUT_PORT_TYPE
+r1 <= sumador_completo:b2v_inst7.S
+r2 <= sumador_completo:b2v_inst8.S
+r3 <= r3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mult_doble|multi_2b_csed:mul_us|sumador_completo:b2v_inst11
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mult_doble|multi_2b_csed:mul_us|sumador_completo:b2v_inst7
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mult_doble|multi_2b_csed:mul_us|sumador_completo:b2v_inst8
+A => o3.IN0
+A => o4.IN0
+A => S.IN1
+B => o1.IN0
+B => o2.IN0
+B => o3.IN1
+Cin => o1.IN1
+Cin => o2.IN1
+Cin => o4.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
