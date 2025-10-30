@@ -1,5 +1,5 @@
 Flow report for maq_de_estado
-Wed Oct 29 14:20:00 2025
+Thu Oct 30 12:32:28 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,18 +40,18 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Oct 29 14:19:53 2025           ;
+; Flow Status                        ; Successful - Thu Oct 30 12:32:28 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; maq_de_estado                                   ;
 ; Top-level Entity Name              ; maq_de_estado                                   ;
 ; Family                             ; Cyclone III                                     ;
 ; Device                             ; EP3C120F780C7                                   ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 0 / 119,088 ( 0 % )                             ;
-;     Total combinational functions  ; 0 / 119,088 ( 0 % )                             ;
-;     Dedicated logic registers      ; 0 / 119,088 ( 0 % )                             ;
-; Total registers                    ; 0                                               ;
-; Total pins                         ; 3 / 532 ( < 1 % )                               ;
+; Total logic elements               ; 8 / 119,088 ( < 1 % )                           ;
+;     Total combinational functions  ; 8 / 119,088 ( < 1 % )                           ;
+;     Dedicated logic registers      ; 3 / 119,088 ( < 1 % )                           ;
+; Total registers                    ; 3                                               ;
+; Total pins                         ; 7 / 532 ( 1 % )                                 ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                           ;
 ; Embedded Multiplier 9-bit elements ; 0 / 576 ( 0 % )                                 ;
@@ -64,26 +64,29 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/29/2025 14:19:00 ;
+; Start date & time ; 10/30/2025 12:29:29 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; maq_de_estado       ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                ;
-+-------------------------------------+--------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+--------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 53642730898432.176175834003252 ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --          ; --         ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                           ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --          ; --         ;
-+-------------------------------------+--------------------------------+---------------+-------------+------------+
++------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                       ;
++-------------------------------------+---------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+---------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 53642730898432.176183816907956        ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --         ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; --          ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --         ;
+; STATE_MACHINE_PROCESSING            ; Gray                                  ; Auto          ; --          ; --         ;
++-------------------------------------+---------------------------------------+---------------+-------------+------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -91,11 +94,13 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:07     ; 1.0                     ; 4623 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:31     ; 1.0                     ; 4990 MB             ; 00:00:21                           ;
-; Assembler                 ; 00:00:08     ; 1.0                     ; 4549 MB             ; 00:00:07                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 4631 MB             ; 00:00:03                           ;
-; Total                     ; 00:00:51     ; --                      ; --                  ; 00:00:33                           ;
+; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 4625 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:31     ; 1.0                     ; 5049 MB             ; 00:00:27                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 4546 MB             ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4630 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4510 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4506 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:50     ; --                      ; --                  ; 00:00:42                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -108,6 +113,8 @@ applicable agreement for further details.
 ; Fitter                    ; Il-pixelator-maestoso ; Windows 7 ; 6.2        ; x86_64         ;
 ; Assembler                 ; Il-pixelator-maestoso ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; Il-pixelator-maestoso ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Il-pixelator-maestoso ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Il-pixelator-maestoso ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+-----------------------+-----------+------------+----------------+
 
 
@@ -118,6 +125,8 @@ quartus_map --read_settings_files=on --write_settings_files=off maq_de_estado -c
 quartus_fit --read_settings_files=off --write_settings_files=off maq_de_estado -c maq_de_estado
 quartus_asm --read_settings_files=off --write_settings_files=off maq_de_estado -c maq_de_estado
 quartus_sta maq_de_estado -c maq_de_estado
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog maq_de_estado -c maq_de_estado --vector_source="C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte E/Waveform.vwf" --testbench_file=./simulation/qsim/maq_de_estado.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog maq_de_estado -c maq_de_estado
 
 
 
