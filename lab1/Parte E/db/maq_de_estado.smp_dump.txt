@@ -1,0 +1,10 @@
+
+State Machine - |maq_de_estado|fstate
+Name fstate.A2 fstate.B3 fstate.B2 fstate.U fstate.A1 fstate.B1 fstate.C 
+fstate.C 0 0 0 0 0 0 0 
+fstate.B1 0 0 0 0 0 1 1 
+fstate.A1 0 0 0 0 1 0 1 
+fstate.U 0 0 0 1 0 0 1 
+fstate.B2 0 0 1 0 0 0 1 
+fstate.B3 0 1 0 0 0 0 1 
+fstate.A2 1 0 0 0 0 0 1 

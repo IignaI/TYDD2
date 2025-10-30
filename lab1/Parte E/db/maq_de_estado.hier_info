@@ -1,0 +1,15 @@
+|maq_de_estado
+reset => reg_fstate.B2.OUTPUTSELECT
+reset => reg_fstate.B1.OUTPUTSELECT
+reset => reg_fstate.A1.OUTPUTSELECT
+reset => reg_fstate.U.OUTPUTSELECT
+reset => reg_fstate.C.OUTPUTSELECT
+reset => reg_fstate.B3.OUTPUTSELECT
+reset => reg_fstate.A2.OUTPUTSELECT
+clock => fstate~1.DATAIN
+X => reg_fstate.DATAB
+X => reg_fstate.DATAB
+X => reg_fstate.DATAB
+X => reg_fstate.DATAB
+
+
