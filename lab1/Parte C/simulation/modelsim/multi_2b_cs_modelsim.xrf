@@ -1,4 +1,5 @@
 vendor_name = ModelSim
+source_file = 1, C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.bdf
 source_file = 1, C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/multi_2b_cs.vhd
 source_file = 1, C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/sumador_completo.vhd
 source_file = 1, C:/Users/iniak/Documents/facu/TYDD2/laboratorios/lab1/Parte C/band_c2.bdf

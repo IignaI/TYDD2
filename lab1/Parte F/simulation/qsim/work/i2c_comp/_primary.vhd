@@ -1,0 +1,40 @@
+library verilog;
+use verilog.vl_types.all;
+entity i2c_comp is
+    port(
+        q0              : out    vl_logic;
+        rst             : in     vl_logic;
+        scl             : in     vl_logic;
+        B1              : in     vl_logic;
+        B2              : in     vl_logic;
+        B3              : in     vl_logic;
+        B4              : in     vl_logic;
+        B5              : in     vl_logic;
+        B6              : in     vl_logic;
+        B7              : in     vl_logic;
+        sda             : inout  vl_logic;
+        q1              : out    vl_logic;
+        q2              : out    vl_logic;
+        q3              : out    vl_logic;
+        q4              : out    vl_logic;
+        q5              : out    vl_logic;
+        q6              : out    vl_logic;
+        q7              : out    vl_logic;
+        A1              : out    vl_logic;
+        A2              : out    vl_logic;
+        A3              : out    vl_logic;
+        A4              : out    vl_logic;
+        A5              : out    vl_logic;
+        A6              : out    vl_logic;
+        A7              : out    vl_logic;
+        HAB_DIR         : out    vl_logic;
+        HAB_DAT         : out    vl_logic;
+        ssoy            : out    vl_logic;
+        ffin_dir        : out    vl_logic;
+        E1              : out    vl_logic;
+        E2              : out    vl_logic;
+        E3              : out    vl_logic;
+        C7              : out    vl_logic_vector(2 downto 0);
+        C8              : out    vl_logic_vector(3 downto 0)
+    );
+end i2c_comp;

@@ -1,0 +1,164 @@
+|i2c_comp
+q0 <= regsp8b:inst3.q0
+rst => I2C:inst.reset
+rst => inst2.IN0
+rst => inst12.IN0
+scl => I2C:inst.clock
+scl => inst14.IN1
+scl => inst6.IN0
+B1 => comparador_7b:inst5.B1
+B2 => comparador_7b:inst5.B2
+B3 => comparador_7b:inst5.B3
+B4 => comparador_7b:inst5.B4
+B5 => comparador_7b:inst5.B5
+B6 => comparador_7b:inst5.B6
+B7 => comparador_7b:inst5.B7
+sda <> inst8
+q1 <= regsp8b:inst3.q1
+q2 <= regsp8b:inst3.q2
+q3 <= regsp8b:inst3.q3
+q4 <= regsp8b:inst3.q4
+q5 <= regsp8b:inst3.q5
+q6 <= regsp8b:inst3.q6
+q7 <= regsp8b:inst3.q7
+A1 <= regsp7b:inst4.q6
+A2 <= regsp7b:inst4.q5
+A3 <= regsp7b:inst4.q4
+A4 <= regsp7b:inst4.q3
+A5 <= regsp7b:inst4.q2
+A6 <= regsp7b:inst4.q1
+A7 <= regsp7b:inst4.q0
+HAB_DIR <= I2C:inst.hab_dir
+HAB_DAT <= I2C:inst.hab_dat
+ssoy <= comparador_7b:inst5.sal_comp
+ffin_dir <= contM7:inst1.findir
+E1 <= I2C:inst.E1
+E2 <= I2C:inst.E2
+E3 <= I2C:inst.E3
+C7[0] <= contM7:inst1.Q[0]
+C7[1] <= contM7:inst1.Q[1]
+C7[2] <= contM7:inst1.Q[2]
+C8[0] <= contM8:inst7.Q[0]
+C8[1] <= contM8:inst7.Q[1]
+C8[2] <= contM8:inst7.Q[2]
+C8[3] <= contM8:inst7.Q[3]
+
+
+|i2c_comp|regsp8b:inst3
+q0 <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst27.CLK
+clock => inst26.CLK
+clock => inst25.CLK
+clock => inst24.CLK
+clock => inst23.CLK
+clock => inst22.CLK
+clock => inst21.CLK
+clock => inst20.CLK
+sda => inst20.DATAIN
+q1 <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+q3 <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+q4 <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+q5 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+q6 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+q7 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|i2c_comp|I2C:inst
+reset => reg_fstate.Guardar_dir.OUTPUTSELECT
+reset => reg_fstate.Oscioso.OUTPUTSELECT
+reset => reg_fstate.RW.OUTPUTSELECT
+reset => reg_fstate.AK.OUTPUTSELECT
+reset => reg_fstate.Guardar_dato.OUTPUTSELECT
+reset => hab_dir.OUTPUTSELECT
+reset => ack.OUTPUTSELECT
+reset => hab_dat.OUTPUTSELECT
+reset => E1.OUTPUTSELECT
+reset => E2.OUTPUTSELECT
+reset => E3.OUTPUTSELECT
+clock => fstate~1.DATAIN
+sda => Selector1.IN3
+sda => Selector0.IN2
+fin_dir => process_1.IN0
+fin_dir => process_1.IN0
+soy => process_1.IN1
+soy => process_1.IN1
+fin_dato => Selector1.IN4
+fin_dato => Selector2.IN2
+hab_dir <= hab_dir.DB_MAX_OUTPUT_PORT_TYPE
+ack <= ack.DB_MAX_OUTPUT_PORT_TYPE
+hab_dat <= hab_dat.DB_MAX_OUTPUT_PORT_TYPE
+E1 <= E1.DB_MAX_OUTPUT_PORT_TYPE
+E2 <= E2.DB_MAX_OUTPUT_PORT_TYPE
+E3 <= E3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|i2c_comp|contM7:inst1
+clk => findir~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+reset => findir~reg0.ACLR
+reset => count[0].ACLR
+reset => count[1].ACLR
+reset => count[2].ACLR
+Q[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+findir <= findir~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|i2c_comp|comparador_7b:inst5
+sal_comp <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+A7 => inst7.IN0
+B7 => inst7.IN1
+A1 => inst.IN0
+B1 => inst.IN1
+A3 => inst3.IN0
+B3 => inst3.IN1
+A2 => inst1.IN0
+B2 => inst1.IN1
+A4 => inst4.IN0
+B4 => inst4.IN1
+A5 => inst5.IN0
+B5 => inst5.IN1
+A6 => inst6.IN0
+B6 => inst6.IN1
+
+
+|i2c_comp|regsp7b:inst4
+q6 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst.CLK
+clk => inst1.CLK
+clk => inst2.CLK
+clk => inst3.CLK
+clk => inst4.CLK
+clk => inst5.CLK
+clk => inst6.CLK
+sda => inst.DATAIN
+q5 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|i2c_comp|contM8:inst7
+clk => findato~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+reset => findato~reg0.ACLR
+reset => count[0].ACLR
+reset => count[1].ACLR
+reset => count[2].ACLR
+reset => count[3].ACLR
+Q[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
+findato <= findato~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

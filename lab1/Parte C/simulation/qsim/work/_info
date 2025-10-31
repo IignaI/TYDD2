@@ -8,7 +8,7 @@ Z1 !s100 9RPL:FFO_517oBO]b9Nl[2
 Z2 IUQ@>YMm?]6^Pe14:JAP1b0
 Z3 V59X<WK1m8hL9lQ?Zn61V22
 Z4 dC:\Users\iniak\Documents\facu\TYDD2\laboratorios\lab1\Parte C\simulation\qsim
-Z5 w1761690835
+Z5 w1761846122
 Z6 8multi_2b_cs.vo
 Z7 Fmulti_2b_cs.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|multi_2b_cs.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1761690836.654000
+Z11 !s108 1761846125.050000
 Z12 !s107 multi_2b_cs.vo|
 !s101 -O0
 vmulti_2b_cs_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 HV54AXiF;A:[;mBc7>W<o1
 Z14 IQ`KMi<fF=<B00:QB9jb[C3
 Z15 VGD@H_PO:VdSPgoP<03_mD3
 R4
-Z16 w1761690834
+Z16 w1761846121
 Z17 8multi_2b_cs.vt
 Z18 Fmulti_2b_cs.vt
 L0 65
@@ -36,7 +36,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1761690836.916000
+Z19 !s108 1761846125.316000
 Z20 !s107 multi_2b_cs.vt|
 Z21 !s90 -work|work|multi_2b_cs.vt|
 !s101 -O0
@@ -62,14 +62,14 @@ R21
 R10
 vmulti_2b_cs_vlg_vec_tst
 !i10b 1
-!s100 oj@XXKK0eE[WoTbBL`zG]1
-I[hdCKe9_TLAReDgH]@N8I2
-Z25 V[lQEdNmzoo=OTNhE3STOn3
+Z25 !s100 oj@XXKK0eE[WoTbBL`zG]1
+Z26 I[hdCKe9_TLAReDgH]@N8I2
+Z27 V[lQEdNmzoo=OTNhE3STOn3
 R4
 R16
 R17
 R18
-Z26 L0 295
+Z28 L0 295
 R8
 r1
 !s85 0
